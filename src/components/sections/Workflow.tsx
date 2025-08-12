@@ -51,14 +51,14 @@ export default function Workflow() {
             <div className="flex items-center gap-4 px-6 py-3">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                width="32"
-                height="32"
+                width="24"
+                height="24"
                 viewBox="0 0 32 32"
                 className="text-red-500"
               >
                 <path
                   fill="currentColor"
-                  d="M2.93 17.07A10 10 0 1 1 17.07 2.93A10 10 0 0 1 2.93 17.07M11.4 10l2.83-2.83l-1.41-1.41L10 8.59L7.17 5.76L5.76 7.17L8.59 10l-2.83 2.83l1.41 1.41L10 11.41l2.83 2.83l1.41-1.41L11.41 10z"
+                  d="M16 2C8.2 2 2 8.2 2 16s6.2 14 14 14s14-6.2 14-14S23.8 2 16 2m5.4 21L16 17.6L10.6 23L9 21.4l5.4-5.4L9 10.6L10.6 9l5.4 5.4L21.4 9l1.6 1.6l-5.4 5.4l5.4 5.4z"
                 />
               </svg>
               <p className="font-bold">Without ScrapingBee</p>
@@ -81,16 +81,31 @@ export default function Workflow() {
               <div className="flex items-center gap-4 px-6 py-3">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  width="32"
-                  height="32"
-                  viewBox="0 0 32 32"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 48 48"
                   className="text-green-500"
                 >
+                  <defs>
+                    <mask id="SVGIQLGgV2F">
+                      <g fill="none" stroke-linejoin="round" stroke-width="4">
+                        <path
+                          fill="#fff"
+                          stroke="#fff"
+                          d="M24 44a19.94 19.94 0 0 0 14.142-5.858A19.94 19.94 0 0 0 44 24a19.94 19.94 0 0 0-5.858-14.142A19.94 19.94 0 0 0 24 4A19.94 19.94 0 0 0 9.858 9.858A19.94 19.94 0 0 0 4 24a19.94 19.94 0 0 0 5.858 14.142A19.94 19.94 0 0 0 24 44Z"
+                        />
+                        <path
+                          stroke="#000"
+                          stroke-linecap="round"
+                          d="m16 24l6 6l12-12"
+                        />
+                      </g>
+                    </mask>
+                  </defs>
                   <path
                     fill="currentColor"
-                    fillRule="evenodd"
-                    d="M12 21a9 9 0 1 0 0-18a9 9 0 0 0 0 18m-.232-5.36l5-6l-1.536-1.28l-4.3 5.159l-2.225-2.226l-1.414 1.414l3 3l.774.774z"
-                    clipRule="evenodd"
+                    d="M0 0h48v48H0z"
+                    mask="url(#SVGIQLGgV2F)"
                   />
                 </svg>
                 <p className="font-bold">With ScrapingBee</p>

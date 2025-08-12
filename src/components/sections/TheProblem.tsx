@@ -10,7 +10,7 @@ export default function TheProblem() {
 
         <div className="space-y-8">
           <div className="space-y-8">
-            <p className="text-xs font-bold tracking-wide uppercase sm:text-sm">
+            <p className="text-xs font-bold tracking-wide uppercase sm:text-base">
               The Problem
             </p>
             <p className="text-3xl font-bold sm:text-4xl">
