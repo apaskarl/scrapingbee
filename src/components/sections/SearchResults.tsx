@@ -7,15 +7,50 @@ export default function SearchResults() {
             Search results information, effortlessly
           </h1>
 
-          <div className="grid grid-cols-3 items-center gap-2 rounded bg-[#F6F6F6] p-2 font-bold text-black/65 md:grid-cols-6">
-            <p className="rounded bg-white px-6 py-3 text-center text-black shadow">
+          {/* Tabs */}
+          <div
+            className="flex items-center gap-2 overflow-x-auto rounded bg-[#F6F6F6] p-2 font-bold whitespace-nowrap text-black/65 sm:grid sm:grid-cols-6 sm:overflow-visible sm:whitespace-normal"
+            style={{
+              scrollbarWidth: "none" /* Firefox */,
+              msOverflowStyle: "none" /* IE/Edge */,
+            }}
+          >
+            <button
+              type="button"
+              className="cursor-pointer rounded bg-white px-6 py-3 text-center text-black shadow"
+            >
               Organic results
-            </p>
-            <p className="text-center">Ads</p>
-            <p className="text-center">Local Results</p>
-            <p className="text-center">Google Maps Results</p>
-            <p className="text-center">Related Queries</p>
-            <p className="text-center">Questions</p>
+            </button>
+            <button
+              type="button"
+              className="cursor-pointer px-6 text-center duration-300 hover:opacity-50 md:px-0"
+            >
+              Ads
+            </button>
+            <button
+              type="button"
+              className="cursor-pointer px-6 text-center duration-300 hover:opacity-50 md:px-0"
+            >
+              Local Results
+            </button>
+            <button
+              type="button"
+              className="cursor-pointer px-6 text-center duration-300 hover:opacity-50 md:px-0"
+            >
+              Google Maps Results
+            </button>
+            <button
+              type="button"
+              className="cursor-pointer px-6 text-center duration-300 hover:opacity-50 md:px-0"
+            >
+              Related Queries
+            </button>
+            <button
+              type="button"
+              className="cursor-pointer px-6 text-center duration-300 hover:opacity-50 md:px-0"
+            >
+              Questions
+            </button>
           </div>
         </div>
 
