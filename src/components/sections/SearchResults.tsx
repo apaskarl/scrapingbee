@@ -7,12 +7,11 @@ export default function SearchResults() {
             Search results information, effortlessly
           </h1>
 
-          {/* Tabs */}
           <div
             className="flex items-center gap-2 overflow-x-auto rounded bg-[#F6F6F6] p-2 font-bold whitespace-nowrap text-black/65 sm:grid sm:grid-cols-6 sm:overflow-visible sm:whitespace-normal"
             style={{
-              scrollbarWidth: "none" /* Firefox */,
-              msOverflowStyle: "none" /* IE/Edge */,
+              scrollbarWidth: "none",
+              msOverflowStyle: "none",
             }}
           >
             <button
