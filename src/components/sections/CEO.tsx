@@ -1,12 +1,12 @@
 export default function CEO() {
   return (
     <section id="ceo" className="py-10 text-black">
-      <div className="container mx-auto flex max-w-7xl flex-col gap-12 px-4 md:flex-row md:gap-20">
-        <figure className="flex-shrink-0 space-y-6">
+      <div className="container mx-auto flex max-w-7xl flex-col-reverse gap-10 px-4 md:flex-row md:gap-20">
+        <figure className="flex flex-shrink-0 flex-row items-center gap-6 md:flex-col md:items-start">
           <img
             src="/images/mike.png"
             alt="Mike Ritchie"
-            className="h-36 w-36 rounded-2xl object-cover"
+            className="h-16 w-16 rounded-2xl object-cover md:h-36 md:w-36"
           />
           <figcaption className="space-y-1">
             <p className="text-base font-bold sm:text-xl">Mike Ritchie</p>

@@ -65,7 +65,7 @@ export default function Testimonials() {
           </div>
         </div>
 
-        <div className="flex flex-col items-center justify-between gap-20 border-t border-white/15 py-10 md:flex-row">
+        <div className="flex flex-col items-center justify-between gap-16 border-t border-white/15 py-10 md:flex-row">
           <div className="space-y-10">
             <p className="text-center text-xl font-bold sm:text-2xl md:text-start md:text-3xl">
               Our awards <br /> from Capterra
@@ -77,21 +77,21 @@ export default function Testimonials() {
             />
           </div>
 
-          <div className="flex flex-col gap-10 md:flex-row">
+          <div className="flex flex-row gap-10">
             <img
               src="/images/capterra2024_1.png"
               alt=""
-              className="h-32 md:h-36"
+              className="h-20 md:h-36"
             />
             <img
               src="/images/capterra2024_2.png"
               alt=""
-              className="h-32 md:h-36"
+              className="h-20 md:h-36"
             />
             <img
               src="/images/capterra2024_3.png"
               alt=""
-              className="h-32 md:h-36"
+              className="h-20 md:h-36"
             />
           </div>
         </div>
